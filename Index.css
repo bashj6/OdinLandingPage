@@ -1,0 +1,134 @@
+/*Navigation header*/
+.topBackground {
+    background-color: #1f2937;
+    color: white;
+    padding: 130px;
+    margin:0;
+    padding-top: 0px;
+}
+/* header link*/
+.Navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 10px;
+}
+
+.Navigation a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.Navigation a:hover {
+    background: grey;
+}
+/* logo placement and color*/
+.logo {
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*The website is awesome text*/
+.FirstPart {
+    background-color: #1f2937;
+    font-size: 48px;
+    font-weight: 800;
+}
+.top {
+    display: flex;
+    padding: 150px;
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    color: #F9FAF8;
+
+}
+.top .section1 {
+    display:flex;
+    flex-direction: column;
+}
+
+.top .section2 {
+    flex: 2;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+}
+
+/* 4 images and sub text in middle of page*/
+.middleContainer {
+    display: flex;
+    padding: 150px
+}
+
+.middleItem {
+    flex: 1;
+}
+
+/*Thor Quote */
+
+.thorContainer {
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    position: relative;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    flex-direction: column;
+}
+
+.thorAuthor {
+    align-self: flex-end;
+}
+/*Call to action its time container*/
+
+.callContainer {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 200px;
+    background-color: #3882F6;
+    color: white;
+}
+
+/* headline bold*/
+
+
+.callBold {
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+}
+
+.callContainer .text {
+    display:flex;
+    flex-direction: column;
+}
+
+.signupButton {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 15px;
+    border-width: 3px;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+    float: right;
+
+}
+
